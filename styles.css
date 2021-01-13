@@ -1,0 +1,37 @@
+:root {
+  --primary-text-color: #8486a9;
+  --secondary-text-color: #fb6087;
+  --white: #ffffff;
+  --accent: #343650;
+  --dark-blue: #1e1f29;
+  --black: #191a24;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  background-color: var(--black)
+}
+
+body {
+  background-image: url(images/bg-stars.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--white);
+}
+
+ul {
+  list-style-type: none;
+}
